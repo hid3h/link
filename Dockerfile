@@ -61,4 +61,4 @@ ENV PORT 3002
 # set hostname to localhost
 ENV HOSTNAME "0.0.0.0"
 
-CMD ["yarn", "start:prod"]
+CMD ["node", "server.js"]
